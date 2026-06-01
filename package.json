@@ -1,0 +1,51 @@
+{
+  "name": "react-native-nitro-wallet",
+  "version": "1.0.0",
+  "description": "High-performance Apple Wallet and Google Wallet helpers for React Native via Nitro Modules",
+  "license": "MIT",
+  "author": "Danube",
+  "main": "lib/index",
+  "module": "lib/index",
+  "types": "lib/index.d.ts",
+  "react-native": "src/index",
+  "source": "src/index",
+  "files": [
+    "android",
+    "ios",
+    "lib",
+    "nitrogen",
+    "src",
+    "nitro.json",
+    "react-native.config.js",
+    "NitroWallet.podspec",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "specs": "tsc && nitrogen",
+    "build": "tsc"
+  },
+  "keywords": [
+    "apple-wallet",
+    "google-wallet",
+    "nitro",
+    "nitro-modules",
+    "react-native",
+    "wallet"
+  ],
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-nitro-modules": "*"
+  },
+  "peerDependenciesMeta": {
+    "react-native-nitro-modules": {
+      "optional": false
+    }
+  },
+  "devDependencies": {
+    "nitrogen": "0.35.0",
+    "typescript": "^5.8.3"
+  }
+}
