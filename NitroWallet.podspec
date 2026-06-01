@@ -6,11 +6,11 @@ Pod::Spec.new do |s|
   s.name         = "NitroWallet"
   s.version      = package["version"]
   s.summary      = package["description"]
-  s.homepage     = "https://github.com/danube"
+  s.homepage     = "https://github.com/Shawn147/react-native-nitro-wallet"
   s.license      = package["license"]
   s.authors      = package["author"]
   s.platforms    = { :ios => min_ios_version_supported }
-  s.source       = { :git => "https://github.com/danube/react-native-nitro-wallet.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/Shawn147/react-native-nitro-wallet.git", :tag => "#{s.version}" }
 
   s.source_files = [
     "ios/**/*.{m,mm,swift}",

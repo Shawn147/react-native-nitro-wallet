@@ -3,6 +3,8 @@
   "compilerOptions": {
     "declaration": true,
     "emitDeclarationOnly": false,
+    "noEmit": false,
+    "allowImportingTsExtensions": false,
     "outDir": "lib",
     "rootDir": "src",
     "skipLibCheck": true
