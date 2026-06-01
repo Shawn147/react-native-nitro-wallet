@@ -1,4 +1,4 @@
-# react-native-nitro-wallet
+# react-native-nitro-wallet-manager
 
 High-performance Apple Wallet and Google Wallet helpers for React Native, built with [Nitro Modules](https://nitro.margelo.com/).
 
@@ -14,7 +14,7 @@ High-performance Apple Wallet and Google Wallet helpers for React Native, built 
 ## Installation
 
 ```sh
-npm install react-native-nitro-wallet react-native-nitro-modules
+npm install react-native-nitro-wallet-manager react-native-nitro-modules
 ```
 
 For iOS, install pods after adding the package:
@@ -29,7 +29,7 @@ This package expects a React Native project with Nitro Modules configured.
 ## Usage
 
 ```ts
-import { WalletManager, WalletPassKit } from 'react-native-nitro-wallet';
+import { WalletManager, WalletPassKit } from 'react-native-nitro-wallet-manager';
 
 const canAddApplePasses = await WalletPassKit.canAddPasses();
 

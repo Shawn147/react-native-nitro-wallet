@@ -1,5 +1,5 @@
 {
-  "name": "react-native-nitro-wallet",
+  "name": "react-native-nitro-wallet-manager",
   "version": "1.0.0",
   "description": "High-performance Apple Wallet and Google Wallet helpers for React Native via Nitro Modules",
   "license": "MIT",
